@@ -1,0 +1,1 @@
+export async function requestSignature(markdown:string){ return { system:"docusign.mock", status:"sent", id: "env_"+Date.now() }; }

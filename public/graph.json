@@ -1,0 +1,35 @@
+{
+  "nodes": [
+    {"id":"CEO","kind":"agent"},{"id":"PMO","kind":"agent"},
+    {"id":"CTO","kind":"agent"},{"id":"CFO","kind":"agent"},
+    {"id":"CMO","kind":"agent"},{"id":"InvestorAgent","kind":"agent"},
+    {"id":"ComplianceAgent","kind":"agent"},
+    {"id":"GitHub","kind":"system"},{"id":"PostgresDB","kind":"system"},
+    {"id":"Jira","kind":"system"},{"id":"FinanceAPI","kind":"system"},
+    {"id":"MarketingAPI","kind":"system"},{"id":"RiskPolicy","kind":"system"}
+  ],
+  "links": [
+    {"source":"CEO","target":"PMO","weight":1.0},
+    {"source":"PMO","target":"CTO","weight":1.0},
+    {"source":"PMO","target":"CMO","weight":1.0},
+    {"source":"PMO","target":"CFO","weight":1.0},
+    {"source":"CTO","target":"GitHub","weight":0.5},
+    {"source":"CTO","target":"PostgresDB","weight":0.7},
+    {"source":"CTO","target":"Jira","weight":0.8},
+    {"source":"CFO","target":"FinanceAPI","weight":0.6},
+    {"source":"InvestorAgent","target":"FinanceAPI","weight":0.5},
+    {"source":"InvestorAgent","target":"CFO","weight":0.9},
+    {"source":"CMO","target":"MarketingAPI","weight":0.6},
+    {"source":"ComplianceAgent","target":"RiskPolicy","weight":0.3},
+    {"source":"ComplianceAgent","target":"PMO","weight":0.7},
+    {"source":"GitHub","target":"CTO","weight":0.5},
+    {"source":"Jira","target":"PMO","weight":0.7},
+    {"source":"FinanceAPI","target":"CFO","weight":0.6},
+    {"source":"MarketingAPI","target":"CMO","weight":0.6},
+    {"source":"RiskPolicy","target":"ComplianceAgent","weight":0.3},
+    {"source":"CFO","target":"CEO","weight":0.9},
+    {"source":"CTO","target":"CEO","weight":0.9},
+    {"source":"CMO","target":"CEO","weight":0.9},
+    {"source":"PMO","target":"CEO","weight":0.9}
+  ]
+}

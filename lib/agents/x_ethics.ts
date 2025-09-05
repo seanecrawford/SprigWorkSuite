@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateEthics(p:Proposal,m:any){ return "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."; }

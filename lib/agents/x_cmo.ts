@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateCMO(p:Proposal,m:any){ return "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."; }

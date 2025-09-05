@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateLegal(p:Proposal,m:any){ return "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."; }

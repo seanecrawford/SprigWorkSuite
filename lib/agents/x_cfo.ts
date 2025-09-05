@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateCFO(p:Proposal,m:any){ return "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."; }

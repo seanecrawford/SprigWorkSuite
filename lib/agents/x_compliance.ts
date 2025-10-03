@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateCompliance(p:Proposal,m:any){ return "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."; }

@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluatePM(p:Proposal,m:any){ return "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."; }

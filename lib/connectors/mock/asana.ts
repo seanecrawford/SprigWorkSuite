@@ -1,0 +1,1 @@
+export async function createTasksTDL(tasks:string[]){ return { created: tasks.length, system: "asana.mock" }; }

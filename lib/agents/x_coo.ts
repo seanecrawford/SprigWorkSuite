@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluateCOO(p:Proposal,m:any){ return "Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale."; }

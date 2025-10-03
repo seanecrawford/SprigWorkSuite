@@ -1,0 +1,410 @@
+[
+  {
+    "ts": 1756487339628,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "coo",
+        "memberName": "COO AI",
+        "role": "Operations Officer",
+        "narrative": "Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "coo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\nLaunch a premium sustainable line, raise ad spend to 15%, and pilot EU expansion in Q2.\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **COO AI (Operations Officer)**: Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- COO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\nLaunch a premium sustainable line, raise ad spend to 15%, and pilot EU expansion in Q2.\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  },
+  {
+    "ts": 1756485492013,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "pmo",
+        "memberName": "PMO AI",
+        "role": "Portfolio Manager",
+        "narrative": "Portfolio impact: adding this project delays rebrand by 4 weeks unless we add 1 FTE. Recommend prioritization review."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "pmo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\ntake this platform and launch it\n\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **PMO AI (Portfolio Manager)**: Portfolio impact: adding this project delays rebrand by 4 weeks unless we add 1 FTE. Recommend prioritization review.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- PMO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\ntake this platform and launch it\n\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  },
+  {
+    "ts": 1756484238607,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "pmo",
+        "memberName": "PMO AI",
+        "role": "Portfolio Manager",
+        "narrative": "Portfolio impact: adding this project delays rebrand by 4 weeks unless we add 1 FTE. Recommend prioritization review."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "pmo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\ntake a $100,000 loan to get a photography degree\n\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **PMO AI (Portfolio Manager)**: Portfolio impact: adding this project delays rebrand by 4 weeks unless we add 1 FTE. Recommend prioritization review.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- PMO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\ntake a $100,000 loan to get a photography degree\n\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  },
+  {
+    "ts": 1756484212567,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "coo",
+        "memberName": "COO AI",
+        "role": "Operations Officer",
+        "narrative": "Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "coo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\ntake a $100,000 loan to get a photography degree\n\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **COO AI (Operations Officer)**: Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- COO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\ntake a $100,000 loan to get a photography degree\n\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  },
+  {
+    "ts": 1756484202486,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "coo",
+        "memberName": "COO AI",
+        "role": "Operations Officer",
+        "narrative": "Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "coo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\ntake a $100,000 loan to get a photography degree\n\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **COO AI (Operations Officer)**: Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- COO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\ntake a $100,000 loan to get a photography degree\n\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  },
+  {
+    "ts": 1756484106342,
+    "opinions": [
+      {
+        "memberId": "cfo",
+        "memberName": "CFO AI",
+        "role": "Financial Officer",
+        "narrative": "Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%."
+      },
+      {
+        "memberId": "cmo",
+        "memberName": "CMO AI",
+        "role": "Marketing Officer",
+        "narrative": "Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly."
+      },
+      {
+        "memberId": "coo",
+        "memberName": "COO AI",
+        "role": "Operations Officer",
+        "narrative": "Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale."
+      },
+      {
+        "memberId": "legal",
+        "memberName": "Legal AI",
+        "role": "Counsel",
+        "narrative": "Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW."
+      },
+      {
+        "memberId": "compliance",
+        "memberName": "Compliance AI",
+        "role": "Compliance",
+        "narrative": "Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls."
+      },
+      {
+        "memberId": "ethics",
+        "memberName": "Ethics AI",
+        "role": "Ethics & Trust",
+        "narrative": "Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims."
+      },
+      {
+        "memberId": "pm",
+        "memberName": "PM AI",
+        "role": "Project Manager",
+        "narrative": "Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early."
+      }
+    ],
+    "votes": {
+      "cfo": "yes",
+      "cmo": "yes",
+      "coo": "yes",
+      "legal": "warn",
+      "compliance": "yes",
+      "ethics": "yes",
+      "pm": "yes"
+    },
+    "consensus": "Adopt: proceed with proposal with minor safeguards.",
+    "supportIndex": 0.9256756756756755,
+    "memo": "# Decision Memo\n**Proposal:** User Proposal\n\nLaunch a premium sustainable line, raise ad spend to 15%, and pilot EU expansion in Q2.\n\n---\n## Board Opinions\n- **CFO AI (Financial Officer)**: Stage spend vs ROI milestones; CAC payback < 6 months; target gross margin > 60%.\n- **CMO AI (Marketing Officer)**: Multi-channel tests (search/social/creators). Track cohort LTV and holdout groups weekly.\n- **COO AI (Operations Officer)**: Lock supplier SLAs, QA gates, and run a 2-week fulfillment dry run before scale.\n- **Legal AI (Counsel)**: Ensure GDPR lawful basis, DPAs, truthful sustainability claims, and indemnity caps in SOW.\n- **Compliance AI (Compliance)**: Classify risk per EU AI Act, generate DPIA checklist, and document human-in-the-loop controls.\n- **Ethics AI (Ethics & Trust)**: Avoid dark patterns, ensure fairness, and publish transparent comms on sustainability claims.\n- **PM AI (Project Manager)**: Create a 6-month plan with milestones, owners, and dependencies; flag resourcing risks early.\n\n## Vote Summary\n- CFO AI: YES\n- CMO AI: YES\n- COO AI: YES\n- Legal AI: WARN\n- Compliance AI: YES\n- Ethics AI: YES\n- PM AI: YES\n\n**Support Index:** 0.93\n**Consensus:** Adopt: proceed with proposal with minor safeguards.",
+    "tdl": [
+      "Market research & TAM validation",
+      "Budget & CAC/LTV model review (CFO)",
+      "Compliance checklists (GDPR/EU AI Act)",
+      "Creative brief & ad experiments (CMO)",
+      "Supplier/SLAs & dry run (COO/PM)",
+      "Draft SOW & DPA (Legal)"
+    ],
+    "sow": "# Statement of Work\n\n## Scope\nLaunch a premium sustainable line, raise ad spend to 15%, and pilot EU expansion in Q2.\n\n## Deliverables\n- Localized storefront\n- GDPR-compliant checkout\n- Sustainable packaging launch\n- Multi-channel marketing tests\n\n## Timeline\n- Phase 1: Research & compliance (4 weeks)\n- Phase 2: Build & dry run (8 weeks)\n- Phase 3: Pilot launch (4 weeks)\n\n## Budget\n- Capex: TBD\n- Opex: TBD\n\n## SLAs\n- Uptime 99.9%\n- Fulfillment < 48h\n\n## Acceptance Criteria\n- CAC payback < 6 months\n- Support tickets < 3% of orders\n"
+  }
+]

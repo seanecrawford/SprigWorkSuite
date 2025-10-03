@@ -1,0 +1,1 @@
+export async function fetchCustomersMock(){ return { nps: 61, segments: [ {name:"Power Users", ltv: 1200, churn: 0.03}, {name:"Seasonal Buyers", ltv: 450, churn: 0.11}, {name:"New EU Leads", ltv: 700, churn: 0.08} ], themes: ["Shipping speed", "Sustainable packaging", "Pricing transparency"] }; }

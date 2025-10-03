@@ -1,0 +1,1 @@
+import { Proposal } from "@/lib/core/types"; export async function evaluatePMO(p:Proposal,m:any){ return "Portfolio impact: adding this project delays rebrand by 4 weeks unless we add 1 FTE. Recommend prioritization review."; }

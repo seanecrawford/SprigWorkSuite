@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>BoardRoomAI – 3D Graph</title>
+  <style>
+    html, body, #scene { margin:0; height:100%; background:#0d1117; }
+    .label { color:#e6edf3; font: 700 12px/1.2 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial; }
+  </style>
+  <!-- CDN libs (no build step needed) -->
+  <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/3d-force-graph@1.73.2/dist/3d-force-graph.min.js"></script>
+</head>
+<body>
+<div id="scene"></div>
+<script>
+  // ---- Sample data (Agents + Systems) ----
+  const nodes = [
+    { id: 'CEO', kind:'agent' },
+    { id: 'PMO', kind:'agent' }, { id: 'CTO', kind:'agent' },
+    { id: 'CMO', kind:'agent' }, { id: 'CFO', kind:'agent' },
+    { id: 'InvestorAgent', kind:'agent' }, { id: 'ComplianceAgent', kind:'agent' },
+    { id: 'GitHub', kind:'system' }, { id: 'PostgresDB', kind:'system' },
+    { id: 'Jira', kind:'system' }, { id: 'FinanceAPI', kind:'system' },
+    { id: 'MarketingAPI', kind:'system' }, { id: 'RiskPolicy', kind:'system' },
+  ];
+
+  const links = [
+    ['CEO','PMO',1.0],
+    ['PMO','CTO',1.0], ['PMO','CMO',1.0], ['PMO','CFO',1.0],
+    ['CTO','GitHub',0.5], ['CTO','PostgresDB',0.7], ['CTO','Jira',0.8],
+    ['CFO','FinanceAPI',0.6], ['InvestorAgent','FinanceAPI',0.5],
+    ['InvestorAgent','CFO',0.9], ['CMO','MarketingAPI',0.6],
+    ['ComplianceAgent','RiskPolicy',0.3], ['ComplianceAgent','PMO',0.7],
+    ['GitHub','CTO',0.5], ['Jira','PMO',0.7], ['FinanceAPI','CFO',0.6],
+    ['MarketingAPI','CMO',0.6], ['RiskPolicy','ComplianceAgent',0.3],
+    ['CFO','CEO',0.9], ['CTO','CEO',0.9], ['CMO','CEO',0.9], ['PMO','CEO',0.9]
+  ].map(([source,target,weight]) => ({ source, target, weight }));
+
+  const data = { nodes, links };
+
+  // ---- Color palette ----
+  const colors = {
+    agent: 0x3fb950,      // green
+    system: 0x58a6ff,     // blue
+    edge: 0x8b949e,       // gray
+    highlight: 0xf78166   // orange
+  };
+
+  // ---- create graph ----
+  const Graph = ForceGraph3D({ controlType: 'orbit' })(document.getElementById('scene'))
+    .backgroundColor('#0d1117')
+    .graphData(data)
+    .nodeAutoColorBy('kind')
+    .nodeThreeObject(node => {
+      // a small sphere + text label
+      const group = new THREE.Group();
+
+      const geo = new THREE.SphereGeometry(node.kind === 'agent' ? 6 : 4, 16, 16);
+      const mat = new THREE.MeshBasicMaterial({ color: node.kind === 'agent' ? colors.agent : colors.system });
+      const sphere = new THREE.Mesh(geo, mat);
+      group.add(sphere);
+
+      const sprite = new SpriteText(node.id);
+      sprite.color = '#e6edf3';
+      sprite.fontWeight = '700';
+      sprite.textHeight = 8;
+      sprite.position.set(0, 12, 0);
+      group.add(sprite);
+
+      return group;
+    })
+    .nodeLabel(n => `<div class="label">${n.id}<br><i>${n.kind}</i></div>`)
+    .linkColor(() => '#8b949e')
+    .linkOpacity(0.6)
+    .linkWidth(l => Math.max(1, 4 - (l.weight || 1))) // lower weight = thicker path? flip if you prefer
+    .linkDirectionalArrowLength(6)
+    .linkDirectionalArrowRelPos(0.9)
+    .linkDirectionalParticles(2)
+    .linkDirectionalParticleWidth(l => Math.max(1, 4 - (l.weight || 1)))
+    .onNodeHover(n => Graph.linkColor(l =>
+      (l.source === n || l.target === n) ? '#f78166' : '#8b949e'
+    ));
+
+  // Sprite text helper (embedded to keep file self-contained)
+  function SpriteText(text) {
+    const canvas = document.createElement('canvas');
+    const size = 256;
+    canvas.width = size; canvas.height = size;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = 'rgba(0,0,0,0)'; ctx.fillRect(0,0,size,size);
+    ctx.fillStyle = '#e6edf3';
+    ctx.font = '700 64px Segoe UI, Roboto, Arial';
+    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    wrapText(ctx, text, size/2, size/2, size*0.8, 70);
+    const tex = new THREE.CanvasTexture(canvas);
+    const mat = new THREE.SpriteMaterial({ map: tex, transparent: true });
+    const sprite = new THREE.Sprite(mat);
+    sprite.scale.set(32, 16, 1);
+    return sprite;
+  }
+  function wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+    const words = text.split(' '); let line = ''; let yy = y;
+    const lines = [];
+    for (let n = 0; n < words.length; n++) {
+      const testLine = line + words[n] + ' ';
+      const metrics = ctx.measureText(testLine);
+      if (metrics.width > maxWidth && n > 0) { lines.push(line); line = words[n] + ' '; }
+      else line = testLine;
+    }
+    lines.push(line);
+    yy -= (lines.length-1)*lineHeight/2;
+    lines.forEach(l => { ctx.fillText(l.trim(), x, yy); yy += lineHeight; });
+  }
+
+  // Camera placement
+  Graph.cameraPosition({ z: 180 });
+</script>
+</body>
+</html>
